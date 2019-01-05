@@ -26,5 +26,5 @@ int main()
     ps.push({6, 7});                        // OK
     std::cout << ps.top().first << '\n';    // OK
     std::cout << ps.top().second << '\n';   // OK
-    ps.printOn(std::cout);                  // ERROR: operator<< not supported for element type
+//    ps.printOn(std::cout);                  // ERROR: operator<< not supported for element type
 }

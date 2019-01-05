@@ -22,10 +22,10 @@ public:
         return elems.empty();
     }
 
-    void printOn(std::ostream& strm) const {
-        for(T const& elem : elems)
-           strm << elem << ' ';     // call << for each element
-    }
+//    void printOn(std::ostream& strm) const {
+//        for(T const& elem : elems)
+//           strm << elem << ' ';     // call << for each element
+//    }
 };
 
 template<typename T>
