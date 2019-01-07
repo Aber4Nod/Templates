@@ -3,4 +3,4 @@ project(../Templates)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Templates basics_02/stack1test.cpp basics_02/stack1.hpp basics_02/stack2.hpp basics_02/stackpartspec.hpp basics_02/stack3.hpp basics_02/stack3test.cpp basics_03/stackontype.hpp basics_03/stackontype.cpp basics_03/addvalue.hpp basics_03/stackauto.hpp basics_03/stackauto.cpp basics_03/message.cpp)
+add_executable(Templates basics_04/addspace.hpp basics_04/varusing.cpp)

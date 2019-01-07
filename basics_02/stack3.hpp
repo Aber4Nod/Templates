@@ -34,7 +34,7 @@ template<typename T, typename Cont>
 void Stack<T, Cont>::pop()
 {
     assert(!elems.empty());
-    elems.pop_back():           // remove last element
+    elems.pop_back();           // remove last element
 }
 
 template<typename T, typename Cont>
